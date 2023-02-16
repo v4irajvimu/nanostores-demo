@@ -14,6 +14,7 @@
     "@mui/material": "^5.11.9",
     "@nanostores/persistent": "^0.7.0",
     "@nanostores/react": "^0.4.1",
+    "@wiley-flint/icons": "^0.0.12",
     "@wiley-flint/theme": "^1.3.2",
     "nanostores": "^0.7.3",
     "react": "^18.2.0",

@@ -26,6 +26,12 @@ const Layout = ({ children }: Props) => {
           <Button color="inherit" onClick={() => navigate("/counter")}>
             Counter
           </Button>
+          <Button color="inherit" onClick={() => navigate("/player")}>
+            Player
+          </Button>
+          <Button color="inherit" onClick={() => navigate("/reader")}>
+            Reader
+          </Button>
         </Toolbar>
       </AppBar>
       {children}

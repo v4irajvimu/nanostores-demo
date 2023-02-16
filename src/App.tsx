@@ -5,6 +5,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { FlintThemeProvider } from "@wiley-flint/theme";
 import HomePage from "./pages/HomePage";
 import CounterPage from "./pages/CounterPage";
+import PlayerPage from "./pages/PlayerPage";
+import ReaderPage from "./pages/Reader";
 
 function App() {
   const router = createBrowserRouter([
@@ -15,6 +17,14 @@ function App() {
     {
       path: "/counter",
       element: <CounterPage />,
+    },
+    {
+      path: "/player",
+      element: <PlayerPage />,
+    },
+    {
+      path: "/reader",
+      element: <ReaderPage />,
     },
   ]);
 
